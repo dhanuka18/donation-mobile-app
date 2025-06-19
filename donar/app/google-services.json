@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "604402552042",
+    "project_id": "donar-1c485",
+    "storage_bucket": "donar-1c485.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604402552042:android:a1ddc23ab351ffef8a5b93",
+        "android_client_info": {
+          "package_name": "com.nibm.donation"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACWDGcvUsAz2yd7gtl3MdoCqR7AZ1h2W4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Donation</string>
+    <string name="back">Back</string>
+    <string name="upload">Upload</string>
+</resources>

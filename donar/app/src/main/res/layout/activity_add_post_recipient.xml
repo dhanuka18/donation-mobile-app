@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="24dp"
+    tools:context=".RecipientActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add a Post"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fill in the form below to add a post."
+            android:textSize="16sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/editTextNameRecipient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type Your Name"
+            android:inputType="textPersonName"
+            android:padding="12dp"
+            android:background="#FFD1DC"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Problem"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/editTextProblem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Problem (cancer, need a house)"
+            android:inputType="textMultiLine"
+            android:padding="12dp"
+            android:background="#FFD1DC"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/editTextName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact No"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/editTextContactRecipient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contact No"
+            android:inputType="phone"
+            android:padding="12dp"
+            android:background="#FFD1DC"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/editTextDescriptionRecipient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Description\n(Why you need help from others, how donors can help you)"
+            android:inputType="textMultiLine"
+            android:minHeight="100dp"
+            android:padding="12dp"
+            android:gravity="top|start"
+            android:background="#FFD1DC"
+            android:layout_marginBottom="16dp" />
+
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonPostRecipient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Post Now"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#800040"
+            android:layout_marginBottom="8dp" />
+
+
+
+    </LinearLayout>
+

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="24dp"
+    tools:context=".Go_to_Activity">
+
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="16dp"
+        tools:srcCompat="@drawable/screenshot_2025_03_20_141042" />
+
+    <TextView
+        android:id="@+id/textViewAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HopeBridge"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="32dp"/>
+
+    <TextView
+        android:id="@+id/textViewWhoAreYou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Who Are You ?"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="48dp"/>
+
+    <Button
+        android:id="@+id/buttonGoToDonor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to Donor Page"
+        android:textSize="18sp"
+        android:paddingHorizontal="48dp"
+        android:backgroundTint="#800040"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/buttonGoToRecipient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to Recipient Page"
+        android:textSize="18sp"
+        android:paddingHorizontal="32dp"
+        android:backgroundTint="#800040"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>
